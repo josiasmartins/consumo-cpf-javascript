@@ -7,8 +7,9 @@
 }
 
 :root {
-    --bg-color: #000;
-    --primary-color: #EBCE07
+    --bg-color: rgba(5, 4, 5, 0);
+    --primary-color: rgb(84, 10, 158);
+    --secondary-color: #fff;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
     font-size: 40px;
     text-align: center;
     user-select: none;
-    color: var(--primary-color);
+    color: var(--secondary-color) !important;
 }
 
 .row {
@@ -73,6 +74,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 0 10px;
+    color: var(--secondary-color)
 }
 
 .inputbox input:focus,
@@ -97,6 +99,9 @@ body {
     font-size: 20px;
     font-weight: bold;
     border-radius: 2px;
+}
+#btn {
+    color: var(--secondary-color);
 }
 
 footer {
